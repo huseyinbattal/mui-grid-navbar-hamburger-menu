@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: fantasy;
+  margin: 100px auto;
+  font-size: 40px;
+}
+
+@media (max-width: 900px) {
+  .text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 25px;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

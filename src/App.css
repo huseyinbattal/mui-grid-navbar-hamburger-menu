@@ -13,9 +13,10 @@
 }
 
 .text {
-  font-family: fantasy;
+  font-family:cursive;
   margin: 100px auto;
   font-size: 40px;
+  color:slateblue;
 }
 
 @media (max-width: 900px) {
@@ -27,6 +28,12 @@
 @media (max-width: 600px) {
   .text {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .text {
+    font-size: 20px;
   }
 }
 
